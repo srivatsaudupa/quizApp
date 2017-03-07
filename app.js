@@ -1,5 +1,5 @@
 /* Author: Srivatsa Udupa */
-/* Date: 07th March 2017 */
+/* Date: 07th February 2017 */
 function populate() {
 	if (quiz.isEnded()) {
 	showScores();	//show scores();
