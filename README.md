@@ -6,3 +6,5 @@ Results are displayed at the end of the quiz.
 
 This project has not been used for any kind of commercial usage.
 This is purely intended for learning.
+
+Requires Apache for PHP (XAMPP) web server.
