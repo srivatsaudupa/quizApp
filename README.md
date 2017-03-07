@@ -1,4 +1,4 @@
-# quizApp
+# Sample Quiz App
 Quiz App
 
 This is a sample quiz project. The application when run will provide a web page for entering user information and then takes a quiz of five questions.
