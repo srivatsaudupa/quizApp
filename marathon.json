@@ -1,0 +1,6 @@
+{
+    "id": "myApp",
+    "cmd": "env && sleep 300",
+    "cpus": 0.25,
+    "mem": 16.0
+}
