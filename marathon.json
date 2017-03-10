@@ -1,6 +1,15 @@
 {
-    "id": "myApp",
-    "cmd": "env && sleep 300",
-    "cpus": 0.25,
-    "mem": 16.0
+    "id": "app", 
+    "container": {
+      "docker": {
+        "image": "localhost:5000/containersol/nodejs_app:latest",
+        "network": "BRIDGE",
+        "portMappings": [
+          {"containerPort": 8000, "servicePort": 8000}
+        ]
+      }
+    },
+    "cpus": 0.2,
+    "mem": 512.0,
+    "instances": 1
 }
