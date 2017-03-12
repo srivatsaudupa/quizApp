@@ -1,15 +1,14 @@
 {
-    "id": "app", 
+    "id": "inky", 
     "container": {
-      "docker": {
-        "image": "localhost:5000/containersol/nodejs_app:latest",
-        "network": "BRIDGE",
-        "portMappings": [
-          {"containerPort": 8000, "servicePort": 8000}
-        ]
-      }
+        "docker": {
+            "image": "mesosphere/inky"
+        },
+        "type": "DOCKER",
+        "volumes": []
     },
+    "args": ["hello"],
     "cpus": 0.2,
-    "mem": 512.0,
+    "mem": 32.0,
     "instances": 1
 }
