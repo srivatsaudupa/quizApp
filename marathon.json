@@ -1,15 +1,9 @@
 {
-    "id": "app", 
-    "container": {
-      "docker": {
-        "image": "localhost:5000/containersol/nodejs_app:latest",
-        "network": "BRIDGE",
-        "portMappings": [
-          {"containerPort": 8000, "servicePort": 8000}
-        ]
-      }
-    },
-    "cpus": 0.2,
-    "mem": 512.0,
-    "instances": 1
+    "id": "helloworld",
+    "cmd": "echo \"Hello World\"; sleep 10",
+    "mem": 32,
+    "cpus": 0.3,
+    "instances": 2,
+    "disk": 0.0,
+    "ports": [0]
 }
