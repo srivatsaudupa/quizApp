@@ -1,6 +1,6 @@
 {
     "id": "app",
-    "cmd": "git clone https://github.com/srivatsaudupa/quizApp.git",
+    "cmd": "./gitclone.sh",
     "mem": 32,
     "cpus": 0.3,
     "instances": 2,
