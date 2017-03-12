@@ -1,9 +1,21 @@
 {
-    "id": "helloworld",
-    "cmd": "echo \"Hello World\"; sleep 10",
-    "mem": 32,
-    "cpus": 0.3,
-    "instances": 2,
-    "disk": 0.0,
-    "ports": [0]
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "network": "HOST",
+      "image": "vatsaawsdocker/ubuntu"
+    },
+    "volumes": [
+      {
+        "containerPath": "/etc/a",
+        "hostPath": "/var/data/a",
+        "mode": "RO"
+      },
+      {
+        "containerPath": "/etc/b",
+        "hostPath": "/var/data/b",
+        "mode": "RW"
+      }
+    ]
+  }
 }
