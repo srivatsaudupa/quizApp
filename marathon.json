@@ -1,6 +1,6 @@
 {
     "id": "app",
-    "cmd": "./gitclone.sh",
+    "cmd": "echo \" Hello \"",
     "mem": 32,
     "cpus": 0.3,
     "instances": 2,
