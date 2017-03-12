@@ -1,1 +1,1 @@
-git clone https://github.com/srivatsaudupa/quizApp.git
+echo "Team Stratus"
