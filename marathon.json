@@ -7,3 +7,13 @@
     "disk": 0.0,
     "ports": [0]
 }
+
+{
+    "id": "mesosapp2",
+    "cmd": "echo \"Hello World\"; sleep 10",
+    "mem": 32,
+    "cpus": 0.1,
+    "instances": 2,
+    "disk": 0.0,
+    "ports": [0]
+}
