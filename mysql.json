@@ -1,0 +1,22 @@
+{
+  "id": "wordpressdb",
+  "container": {
+    "type": "DOCKER",
+      "docker": {
+          "image": "starblade/mysql:v2",
+          "privileged": true,
+          "parameters":[
+            {"key": "volumes-from", "value": "wpdatastore"},
+            {"key": "env", "value": "MYSQL_ROOT_PASSWORD=somepassword"}
+          ],
+      "network": "BRIDGE",
+      "portMappings": [
+        { "containerPort": 3306, "hostPort": 0 }
+      ]
+      },
+      "volumes": []
+  },
+  "cpus": 1.0,
+  "mem": 256.0,
+  "instances": 1.0
+}
