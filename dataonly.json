@@ -1,0 +1,25 @@
+{
+  "id": "wpdatastore",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "starblade/wp_datastore:v3"
+    },
+    "volumes": [
+      {
+        "containerPath": "/var/lib/mysql/",
+        "hostPath": "/data/mysql/",
+        "mode": "RW"
+      },
+          {
+        "containerPath": "/var/www/html/",
+        "hostPath": "/var/www/html/",
+        "mode": "RW"
+      }
+    ]
+  },
+  "instances": 1,
+  "cpus": 0.2,
+  "mem": 64,
+  "uris": []
+}
