@@ -1,14 +1,9 @@
 {
-    "id": "inky", 
-    "container": {
-        "docker": {
-            "image": "mesosphere/inky"
-        },
-        "type": "DOCKER",
-        "volumes": []
-    },
-    "args": ["hello"],
-    "cpus": 0.2,
-    "mem": 32.0,
-    "instances": 1
+    "id": "helloworld",
+    "cmd": "echo \"Hello World\"; sleep 10",
+    "mem": 32,
+    "cpus": 0.3,
+    "instances": 2,
+    "disk": 0.0,
+    "ports": [0]
 }
