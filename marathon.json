@@ -1,5 +1,5 @@
 {
-    "id": "mesosApplication",
+    "id": "mesosapp",
     "cmd": "echo \"Hello World\"; sleep 10",
     "mem": 32,
     "cpus": 0.3,
