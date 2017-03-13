@@ -1,26 +1,9 @@
 {
-  "id": "wordpressws",
-  "container": {
-    "type": "DOCKER",
-      "docker": {
-          "image": "starblade/wordpress:v3",
-          "privileged": true,
-          "parameters":[
-            {"key": "link", "value": "wordpressdb"}
-          ],
-      "network": "BRIDGE",
-      "portMappings": [
-        {
-          "servicePort": 28081,
-          "containerPort": 8580,
-          "hostPort": 0,
-          "protocol": "tcp"
-        }
-      ]
-      },
-      "volumes": []
-  },
-  "cpus": 1.0,
-  "mem": 128.0,
-  "instances": 1.0
+    "id": "mesosapp2",
+    "cmd": "echo \"Hello World\"; sleep 10",
+    "mem": 32,
+    "cpus": 0.1,
+    "instances": 2,
+    "disk": 0.0,
+    "ports": [0]
 }
