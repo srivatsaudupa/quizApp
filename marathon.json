@@ -1,21 +1,14 @@
 {
-  "container": {
-    "type": "DOCKER",
-    "docker": {
-      "network": "HOST",
-      "image": "vatsaawsdocker/ubuntu"
+    "id": "newAppOnMesos", 
+    "container": {
+        "docker": {
+            "image": "vatsaawsdocker/ubuntu"
+        },
+        "type": "DOCKER",
+        "volumes": []
     },
-    "volumes": [
-      {
-        "containerPath": "/etc/a",
-        "hostPath": "/var/data/a",
-        "mode": "RO"
-      },
-      {
-        "containerPath": "/etc/b",
-        "hostPath": "/var/data/b",
-        "mode": "RW"
-      }
-    ]
-  }
+    "args": ["hello"],
+    "cpus": 0.2,
+    "mem": 32.0,
+    "instances": 1
 }
