@@ -1,6 +1,6 @@
 {
     "id": "capp",
-    "cmd": "node server.js; sleep 100",
+    "cmd": "echo \Hello"\"; sleep 100",
     "mem": 32,
     "cpus": 0.1,
     "instances": 2,
