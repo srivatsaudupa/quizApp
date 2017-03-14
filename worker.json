@@ -1,6 +1,6 @@
 {
     "id": "capp",
-    "cmd": "sudo apt-get install nodejs; node server.js; sleep 10",
+    "cmd": "node server.js; sleep 10",
     "mem": 32,
     "cpus": 0.1,
     "instances": 2,
