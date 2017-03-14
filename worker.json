@@ -1,9 +1,10 @@
 {
-    "id": "capp",
-    "cmd": "echo \"New Application is Running\"; sleep 130",
-    "mem": 32,
-    "cpus": 0.1,
-    "instances": 2,
-    "disk": 0.0,
-    "ports": [0]
+  "id": "http",
+  "cmd": "python -m SimpleHTTPServer $PORT",
+  "mem": 50,
+  "cpus": 0.1,
+  "instances": 1,
+  "constraints": [
+    ["hostname", "UNIQUE"]
+  ]
 }
