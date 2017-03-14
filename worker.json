@@ -1,6 +1,6 @@
 {
     "id": "capp",
-    "cmd": "echo \"Hello\"; sleep 100",
+    "cmd": "sudo apt-get install nano; sleep 100",
     "mem": 32,
     "cpus": 0.1,
     "instances": 2,
