@@ -2,7 +2,7 @@
   "id": "http",
   "cmd": "python -m SimpleHTTPServer $PORT",
   "mem": 50,
-  "cpus": 0.1,
+  "cpus": 0.01,
   "instances": 10,
   "constraints": [
     ["hostname", "UNIQUE"]
