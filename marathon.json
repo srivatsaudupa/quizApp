@@ -3,7 +3,7 @@
     "cmd": "echo \"Hello World\"; sleep 130",
     "mem": 1,
     "cpus": 0.01,
-    "instances": 1000,
+    "instances": 500,
     "disk": 0.0,
     "ports": [0]
 }
