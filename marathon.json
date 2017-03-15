@@ -1,7 +1,7 @@
 {
     "id": "mesosapp",
     "cmd": "echo \"Hello World\"; sleep 10",
-    "mem": 4,
+    "mem": 1,
     "cpus": 0.01,
     "instances": 2,
     "disk": 0.0,
