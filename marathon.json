@@ -1,9 +1,9 @@
 {
-    "id": "newapplicationonmesos",
-    "cmd": "echo \"Hello World\"",
+    "id": "newapplicationonmesos200",
+    "cmd": "echo \"Hello World\"; sleep 130",
     "mem": 1,
     "cpus": 0.01,
-    "instances": 2,
+    "instances": 200,
     "disk": 0.0,
     "ports": [0]
 }
