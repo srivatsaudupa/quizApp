@@ -1,5 +1,5 @@
 {
-  "id": "http",
+  "id": "mesosapp",
   "cmd": "echo \"Running Mesos App\"",
   "mem": 32,
   "cpus": 0.1,
