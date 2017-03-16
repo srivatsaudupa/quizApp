@@ -1,9 +1,9 @@
 {
   "id": "mesosapp",
   "cmd": "python -m SimpleHTTPServer $PORT",
-  "mem": 50,
-  "cpus": 0.01,
-  "instances": 10,
+  "mem": 32,
+  "cpus": 0.1,
+  "instances": 4,
   "constraints": [
     ["hostname", "UNIQUE"]
   ]
