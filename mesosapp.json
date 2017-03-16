@@ -1,0 +1,10 @@
+{
+  "id": "http",
+  "cmd": "echo \"Running Mesos App\"",
+  "mem": 32,
+  "cpus": 0.1,
+  "instances": 4,
+  "constraints": [
+    ["hostname", "UNIQUE"]
+  ]
+}
