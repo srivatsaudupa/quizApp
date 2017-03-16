@@ -1,6 +1,6 @@
 {
   "id": "mesosapp",
-  "cmd": "echo \"Running Mesos App\"",
+  "cmd": "echo \"Running Mesos App\"; sleep 130",
   "mem": 32,
   "cpus": 0.1,
   "instances": 4,
