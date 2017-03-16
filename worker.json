@@ -1,5 +1,5 @@
 {
-  "id": "http",
+  "id": "mesosapp",
   "cmd": "python -m SimpleHTTPServer $PORT",
   "mem": 50,
   "cpus": 0.01,
